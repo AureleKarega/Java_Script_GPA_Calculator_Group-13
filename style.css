@@ -2,8 +2,9 @@ body {
   background-color: #f2f2f2; /* Lighter background for better contrast */
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  height: 100vh;
+  height: 10vh;
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -43,9 +44,32 @@ button {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 20px;
+  text-align: center;
+  width: 48%;
+  padding: 10px 16px;
 }
 
 button:hover {
   background-color: #005f8c;
 }
 
+.button-1{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 20%;
+cursor: pointer;
+padding: 10px 15px;
+width: 18%;
+
+}
+
+table{
+width: 50%;
+border-collapse: collapse;
+margin-top: 20%;
+
+
+  
+}
