@@ -1,75 +1,126 @@
+/* Set overall styles for the body of the page */
 body {
-  background-color: #f2f2f2; /* Lighter background for better contrast */
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  height: 10vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Light gray background for better contrast */
+    display: flex;
+    /* Use Flexbox for centering content */
+    justify-content: center;
+    /* Center content horizontally */
+    text-align: center;
+    /* Center text inside elements */
+    align-items: center;
+    /* Center content vertically */
+    height: 10vh;
+    /* Set height to 10% of the viewport (Note: may be too small) */
+    margin: 0;
+    /* Remove default margin */
+    font-family: Arial, sans-serif;
+    /* Set font style */
 }
 
+/* Container class for the content box */
 .container {
-  background-color: #ffffff; /* White background for content */
-  padding: 30px;
-  border-radius: 12px;
-  width: 320px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    background-color: #ffffff;
+    /* White background inside the container */
+    padding: 30px;
+    /* Space inside the box */
+    border-radius: 12px;
+    /* Rounded corners */
+    width: 320px;
+    /* Set a fixed width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for 3D effect */
+    text-align: center;
+    /* Center text inside */
 }
 
+/* Style the heading */
 h1 {
-  color: #333;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+    color: #333;
+    /* Dark gray text */
+    font-size: 1.8rem;
+    /* Larger font size */
+    margin-bottom: 20px;
+    /* Space below the heading */
 }
 
+/* Style the icon inside the heading */
 h1 i {
-  margin-right: 10px;
-  color: #0077b6;
+    margin-right: 10px;
+    /* Space between icon and text */
+    color: #0077b6;
+    /* Blue color for the icon */
 }
 
-input, button {
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  margin: 6px 0;
-  width: 90%;
-  box-sizing: border-box;
-}
-
+/* Style all inputs and buttons uniformly */
+input,
 button {
-  background-color: #0077b6;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
-  text-align: center;
-  width: 48%;
-  padding: 10px 16px;
+    padding: 8px;
+    /* Space inside the inputs/buttons */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    margin: 6px 0;
+    /* Vertical spacing */
+    width: 90%;
+    /* Take up 90% of the available width */
+    box-sizing: border-box;
+    /* Includes padding in width calculation */
 }
 
+/* Specific styling for buttons */
+button {
+    background-color: #0077b6;
+    /* Primary blue background */
+    color: white;
+    /* White text */
+    border: none;
+    /* No border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth color change on hover */
+    margin-top: 20px;
+    /* Space above button */
+    text-align: center;
+    /* Center the button text */
+    width: 48%;
+    /* Each button takes up almost half when side-by-side */
+    padding: 10px 16px;
+    /* Internal padding */
+}
+
+/* Change button background on hover */
 button:hover {
-  background-color: #005f8c;
+    background-color: #005f8c;
+    /* Darker blue when hovered */
 }
 
-.button-1{
-display: flex;
-justify-content: center;
-gap: 10px;
-margin-top: 20%;
-cursor: pointer;
-padding: 10px 15px;
-width: 18%;
-
+/* Style for the button container (holding both buttons) */
+.button-1 {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: center;
+    /* Center buttons horizontally */
+    gap: 10px;
+    /* Space between the buttons */
+    margin-top: 20%;
+    /* Push buttons downward (note: 20% of parent height) */
+    cursor: pointer;
+    /* Pointer on hover */
+    padding: 10px 15px;
+    /* Internal spacing */
+    width: 18%;
+    /* Very small width — might make buttons cramped */
 }
 
-table{
-width: 50%;
-border-collapse: collapse;
-margin-top: 20%;
-
-
-  
+/* Table styling */
+table {
+    width: 50%;
+    /* Table takes up half the container width */
+    border-collapse: collapse;
+    /* Merge table borders */
+    margin-top: 20%;
+    /* Space above the table */
 }

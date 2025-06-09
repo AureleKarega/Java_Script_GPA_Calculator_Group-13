@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <!-- Set character encoding -->
     <meta charset="UTF-8">
+
+    <!-- Set viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title in the browser tab -->
     <title>GPA Calculator</title>
+
+    <!-- Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- jQuery library (though not required if you're using pure JavaScript) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
-  <h1><i class="fas fa-graduation-cap"></i> GPA Calculator</h1>
 
+<body>
+
+    <!-- Page header with a graduation cap icon -->
+    <h1><i class="fas fa-graduation-cap"></i> GPA Calculator</h1>
+
+    <!-- Table to enter course data -->
     <table id="gradesTable">
         <tr>
+            <!-- Table headers -->
             <th>Course</th>
             <th>Credit</th>
             <th>Point</th>
         </tr>
         <tr>
+            <!-- First row of inputs for course name, credit hours, and grade point -->
             <td><input type="text" class="course"></td>
             <td><input type="number" class="credit"></td>
             <td><input type="number" class="point"></td>
         </tr>
     </table>
+
+    <!-- Buttons container -->
     <div class="button-1">
-    <button id="addRow">Add Course</button>
-    <button id="calculateGPA">Calculate GPA</button>
-    <div id="result"></div>
+        <!-- Button to add a new course input row -->
+        <button id="addRow">Add Course</button>
+
+        <!-- Button to trigger GPA calculation -->
+        <button id="calculateGPA">Calculate GPA</button>
+
+        <!-- Display result here -->
+        <div id="result"></div>
     </div>
 
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
-  
+
 </body>
+
 </html>
