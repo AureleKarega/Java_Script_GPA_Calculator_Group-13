@@ -17,11 +17,21 @@ This is a group project  where we collaboratively built a JavaScript GPA Calcula
 
 ## Getting Started
 
-To run the project:
+To run this project locally:
 
-1. Clone the repository to your local machine.
-2. Open `index.html` in a browser.
-3. Start adding assignments and watch the GPA update in real-time.
+1. Clone the repository to your machine using:
+
+```bash
+git clone https://github.com/your-username/Java_Script_GPA_Calculator_Group-13.git
+```
+2. Navigate to the project folder and open index.html in your browser.
+
+3. Start entering course info:
+  - Add course name (optional)
+  - Enter credit hours
+  - Enter grade points
+   
+4. Click "Add Course" to insert more rows, and "Calculate GPA" to see your result.
 
 
 ## Acknowledgements
