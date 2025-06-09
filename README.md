@@ -28,3 +28,10 @@ To run the project:
 
 This project was created as part of a collaborative school assignment. Special thanks to all team members for their contributions and dedication.
 
+## Group Members
+1.Karega Aurele
+2.Emmanuella Ikirezi
+3.Kevine Uwisanga
+4,Lionel Karekezi
+5.Neville Iregi
+6.Sedem Amuzu
